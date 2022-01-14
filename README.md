@@ -1,5 +1,9 @@
 # pair-coding-interview
 
+Setup:
+- run `npm run setup`
+- run `npm start`
+
 API URL `http://localhost:3000`
 
 - Implement the wireframe. Container should not be wider than 1000px, and its should be centred in the page.
