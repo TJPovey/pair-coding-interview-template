@@ -10,6 +10,6 @@ API URL `http://localhost:3000`
 - Cards should be ordered by price.
 - Add a button that inverts the order of the cards (by price)
 - Add a 5px border to the left each card and alternate the colour.
-- Continuously poll the data and show an "up-down" indicator in each card when the price changes depending on the directions
+- Continuously poll the data and show an "up-down" indicator in each card when the price changes depending on the direction
 
 ![wireframe](wireframe.png "Title")
