@@ -6,7 +6,8 @@ Setup:
 
 API URL `http://localhost:3000`
 
-- Implement the wireframe. Container should not be wider than 1000px, and its should be centred in the page.
+Requirements:
+- Implement the wireframe design.
 - Use the data from the `/cards` endpoint to populate the grid.
 - Apply a background image to the cards. The image url is `/cards/{cardID}/image`
 - Add an input field to filter the cards by instrument name
