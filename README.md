@@ -8,8 +8,8 @@ API URL `http://localhost:3000`
 
 Requirements:
 - Implement the wireframe design.
-- Use the data from the `/cards` endpoint to populate the grid.
-- Apply a background image to the cards. The image url is `/cards/{cardID}/image`
+- Use the data from the `http://localhost:3000/cards` endpoint to populate the grid.
+- Apply a background image to the cards. The image url is `http://localhost:3000/cards/{cardID}/image`
 - Add an input field to filter the cards by instrument name
 - When the screen is < 600px change the grid to display as a single column, and change the background to black, and the page title to white.
 - Cards should be ordered by price.
