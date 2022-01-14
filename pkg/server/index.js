@@ -1,6 +1,7 @@
 const express = require('express')
 const path = require('path');
 const fs = require('fs');
+const cors = require('cors')
 
 const app = express()
 const port = 3000
@@ -21,6 +22,7 @@ const cardsTable = {
     "d4cfc13d90b301c7903b353160976eb4": "Blue-Eyes Chaos Max Dragon"
 }
 
+app.use(cors());
 app.get('/cards', async (req, res) => {
     const mapped = Object.entries(cardsTable).map(([id, name]) => {
         console.log(id, name)
