@@ -1,0 +1,24 @@
+{
+  "name": "pair-coding-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "concurrently \"cd pkg/server && npm install\" \"cd pkg/app && npm install\"",
+    "start": "concurrently -k \"cd pkg/server && npm start\" \"cd pkg/app && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlieasemota/pair-coding-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlieasemota/pair-coding-interview/issues"
+  },
+  "homepage": "https://github.com/charlieasemota/pair-coding-interview#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
