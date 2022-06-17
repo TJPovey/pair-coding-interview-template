@@ -1,6 +1,7 @@
 # pair-coding-interview
 
 Setup:
+- Make sure you're running Node 16.10.x or later
 - run `npm run setup`
 - run `npm start`
 
